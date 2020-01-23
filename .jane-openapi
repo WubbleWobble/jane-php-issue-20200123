@@ -1,0 +1,8 @@
+<?php
+
+return [
+    'openapi-file' => __DIR__ . '/api-with-examples.yaml',
+    'namespace' => 'Test\Api',
+    'directory' => __DIR__ . '/api-client',
+    'client' => 'psr18',
+];
